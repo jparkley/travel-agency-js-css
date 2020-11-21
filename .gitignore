@@ -1,0 +1,13 @@
+# Always-ignore extensions
+*.log
+*.vi
+*.sass-cache
+node_modules/
+.tmp/
+*.err
+
+# Credentials
+.env
+
+# Temp
+/app/assets/images-bk
