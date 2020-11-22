@@ -11,3 +11,4 @@ node_modules/
 
 # Temp
 /app/assets/images-bk
+/test
