@@ -1,0 +1,42 @@
+.main-bg {
+    position: relative;
+
+    &__text_area {
+        font-family: 'Merriweather', serif;
+        position: absolute;
+        top: 20%;
+        left: 6%;    
+    }
+
+    &__title {
+        /* font-family: 'Noto Sans JP', sans-serif; */
+        /* font-family: 'Merriweather', serif; */
+        font-family: 'Nerko One', cursive;
+        font-size: 2.8rem;
+        color: $darkBlue;
+        text-shadow: 2px 2px 0 rgba(0,0,0, .1);
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-family: 'Nerko One', cursive;
+        font-size: 1.4rem;    
+        font-weight: 200;
+        margin:1rem 0 3rem;
+    }    
+
+}
+
+
+
+
+
+
+
+
+
+/* text-shadow: 2px 2px 0 rgba(0,0,0, .1); */
+
+
+
+
