@@ -9,6 +9,7 @@
 @import 'modules/_heading';
 @import 'modules/_row';
 @import 'modules/_gen-text-container'; /* Generaic container for text */
+@import 'modules/_section-title';
 
 
 
