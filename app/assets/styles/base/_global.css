@@ -1,9 +1,19 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Merriweather', serif;
     color: #1B2631;    
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $coral;
+    text-decoration: none;
 }

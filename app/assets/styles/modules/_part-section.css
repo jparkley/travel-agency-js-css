@@ -1,0 +1,12 @@
+.part-section {
+    padding: 1.2rem 0;
+
+    @media atMedium {
+        padding: 3rem 0;
+    }
+
+    &--bluebg {
+        background-color: $darkBlue;
+        color: #fff;
+    }
+}

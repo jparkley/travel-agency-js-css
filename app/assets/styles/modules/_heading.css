@@ -1,0 +1,35 @@
+.heading {
+    font-size: 1.2rem;
+    font-weight: 200;    
+    margin: 1.2rem auto;
+    text-align: center;
+
+    @mixin atSmall {
+        font-size: 1.8rem;
+    }
+    &--coral {
+        color: $coral;        
+    }
+    &--narrow {
+        max-width: 500px;
+    }
+    &--small {
+        font-size: 1rem;
+    }
+    &--b-margin-small {
+        margin-bottom: 0.5rem;
+    }
+    &--b-margin-large {
+        margin-bottom: 1.5rem;
+        @mixin atMedium {
+            margin-bottom: 3rem;
+        }
+    }
+    &--no-t-margin {
+        margin-top: 0;
+    }
+    &__bold {
+        font-weight: 600;
+    }
+
+}

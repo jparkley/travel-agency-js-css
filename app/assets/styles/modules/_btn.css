@@ -5,14 +5,15 @@
     padding: 0.8rem 1.2rem;
     display: inline-block;
     
-    &__lightblue {
-        background-color: $lightBlue;
-        color: $darkBlue;
-    }
+    &--search {
+        font-size: 0.8rem;
+        margin-top: 6rem;      
 
-    &__large {
-        font-size: 1.1rem;
-        padding: 0.9rem 1.4rem;        
+        @mixin atSmall {
+            margin-top: 0;
+            font-size: 1.2rem;
+            background-color: $lightBlue;
+            color: $darkBlue;    
+        }
     }
-
 }

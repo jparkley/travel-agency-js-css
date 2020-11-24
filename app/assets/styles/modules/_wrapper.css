@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 1224px;
+    padding: 0 20px;    
+    overflow: hidden;    
+
+    &--b-margin {
+        margin-bottom: 1.2rem;
+        @mixin atMedium {
+            margin-bottom: 3rem;
+        }    
+    }   
+
+
+    &--centered {
+        text-align: center;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+}
