@@ -1,7 +1,9 @@
 .gen-text-container {
     p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
         line-height: 1.6rem;
-        margin: 1.6rem 0;
+        margin: 0 0 1.8rem 0;
     }  
     p a {
         font-weight: 600;

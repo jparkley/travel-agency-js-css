@@ -1,35 +1,33 @@
 .row {
     @mixin clearfix;
+
     &--rim {
         margin-right: -40px;
-    }
+    }    
     &--rim > div { /* select all direct children */
         padding-right: 40px;
     }
-
-    &__b-margin-until-medium {
+    &--rim-large {
+        margin-right: -80px;
+    }
+    &--rim-large > div {
+        padding-right: 40px;
+    }
+    &__b-margin {
         margin-bottom: 2rem;
     }
 
     @mixin atMedium {    
 
-        &__b-margin-until-medium {
-            margin-bottom: 0;
-        }
-        &__medium_4 {
+        &__col-medium-6 {
             float: left;
-            width: 33.33%; 
+            width: 50%;
         }
-        &__medium_8 {
-            float: left;
-            width: 66.66%; 
-        }
-
-        &__medium_5 {
+        &__col-medium-5 {
             float: left;
             width: 38%; 
         }
-        &__medium_7 {
+        &__col-medium-7 {
             float: left;
             width: 62%; 
         }

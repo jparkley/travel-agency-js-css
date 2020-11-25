@@ -2,10 +2,12 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Merriweather&family=Noto+Sans+JP&family=Nerko+One&family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&1&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&&family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <title>Vacation Packages</title>
   <meta name="keywords" content="Vacation Packages">
   <meta name="description" content="Vacation Packages">
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v5.11.1/js/all.js"></script>
 </head>
 <body>
   <header>
@@ -26,9 +28,8 @@
       <source srcset="assets/images/main-bg--medium.jpg" media="(min-width: 990px)">
       <source srcset="assets/images/main-bg--small.jpg" media="(min-width: 640px)">
       <img src="assets/images/main-bg--smaller.jpg" alt="main image" class="main-bg__image" />
-    </picture>
-    
-    <div class="main-bg__text_area">
+    </picture>    
+    <div class="main-bg__text-area">
       <h1 class="main-bg__title">Travel Lovers</h1>
       <h2 class="main-bg__subtitle">Here is your dream trip</h2>
       <p><a href="#" class="btn btn--search">Search for Vacation Packages</a></p>
@@ -38,57 +39,74 @@
   <div id="dream-vacation" class="part-section">
     <div class="wrapper">
       <h2 class="heading heading--b-margin-small">Where to Go for Your <span class="heading__bold">Next Trip?</span></h2>
-      <h3 class="heading heading--coral heading--narrow heading--small heading--b-margin-large">Dream vacation begins from the moment you start planning: <span class="heading__bold">destination, cost, and time.</span></h3>
+      <h3 class="heading heading--coral heading--narrow heading--small heading--b-margin-large">
+        Dream vacation begins from the moment you start planning: <span class="heading__bold">destination, cost, and time.</span></h3>
       <div class="wrapper wrapper--centered wrapper--b-margin">    
         <picture>
           <source srcset="assets/images/dream-vacation--small.jpg" media="(min-width: 640px)">
-          <img src="assets/images/dream-vacation--smaller.jpg" alt="dream vacation">
+          <img src="assets/images/dream-vacation--smaller.jpg" alt="dream vacation" />
         </picture>
       </div>
 
       <div class="row row--rim">
-        <div class="row__medium_5 row__b-margin-until-medium">
+        <div class="row__col-medium-5 row__b-margin">
           <picture>
             <source srcset="assets/images/ocean--large.jpg" media="(min-width: 1380px)">
-            <source srcset="assets/images/ocean--medium.jpg" media="(min-width: 990px)">
-            <img src="assets/images/ocean--small.jpg" class="row--shadow" alt="ocean">
+            <source srcset="assets/images/ocean--medium.jpg" media="(min-width: 720px)">
+            <img src="assets/images/ocean--small.jpg" class="row--shadow" alt="ocean" />
           </picture>
         </div>
-        <div class="row__medium_7">
+        <div class="row__col-medium-7">
           <div class="gen-text-container">
-              <h2 class="heading heading--no-t-margin">Travel Guide & Booking</h2>
+              <h2 class="heading heading--no-t-margin">Destination & Booking</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>          
+              <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
+          </div>
+        </div><!-- End of col-medium-7 -->
+      </div><!-- End of row -->
+    </div><!-- End of wrapper -->
+  </div><!-- End of part-section -->
+
+  <div id="packages" class="part-section part-section--bluebg">
+    <div class="wrapper">
+      <div class="package-title">              
+        <h2"><i class="fas fa-plane package-title__icon"></i>  <strong>Top</strong> Vacation Packages</h2>
+      </div>
+      <div class="row row--rim-large">
+        <div class="row row__col-medium-6">
+          <div class="package-item">
+            <h3 class="package-item__title"><i class="fas fa-archway package-item__icon"></i> Santorini in Greece</h3>
+            <div class="gen-text-container">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div><!-- End of package item 1 -->
+        
+          <div class="package-item">
+            <h3 class="package-item__title"><i class="fas fa-umbrella-beach package-item__icon"></i> Hawaii Tours</h3>
+            <div class="gen-text-container">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row__col-medium-6">  
+          <div class="package-item">               
+            <h3 class="package-item__title"><i class="fas fa-city package-item__icon"></i> New York City</h3>
+            <div class="gen-text-container">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+
+          <div class="package-item">          
+            <h3 class="package-item__title"><i class="fas fa-fan package-item__icon"></i>Feel the Rhythm of Korea</h3>
+            <div class="gen-text-container">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div id="features" class="part-section part-section--bluebg">
-    <div class="wrapper">
-        <img src="assets/images/">
-        <h2 class="headline">Top Vacation Packages</h2>
-      
-        <img src="assets/images/">
-        <h3>Price Comparison</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <img src="assets/images/">
-        <h3>Hawaii Tours </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-        <img src="assets/images"/>
-        <h3>Tour to Hawaii</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-        <img src="assets/images/">
-        <h3>2021 Hawaii Vacations</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
 

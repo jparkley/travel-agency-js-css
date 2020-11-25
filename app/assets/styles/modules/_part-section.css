@@ -3,6 +3,7 @@
 
     @media atMedium {
         padding: 3rem 0;
+        margin-bottom: 10rem;
     }
 
     &--bluebg {
