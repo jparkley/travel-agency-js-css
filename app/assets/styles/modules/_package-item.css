@@ -1,0 +1,16 @@
+.package-item {
+
+    &__title {
+        color: $cornsilk;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;        
+
+        @mixin atMedium {            
+            font-size: 1.7rem;
+        }        
+    }
+    &__icon {
+        margin-right: 0.5rem;
+        color: $orange;
+    }
+}

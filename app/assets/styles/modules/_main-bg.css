@@ -5,38 +5,36 @@
     &__image {
         display: block;
     }
-
-    &__text_area {
-        color: $darkBlue;  
-        font-family: 'Merriweather', serif;
+    &__text-area {
+        color: $darkBlue;          
         position: absolute;
         top: 20%;
         left: 5%;    
     }
-
-    &__title {
-        /* font-family: 'Noto Sans JP', sans-serif; */
-        font-family: 'Nerko One', cursive;
+    &__title {    
+        font-family: 'Gentium Basic', serif;
+        font-style: italic;
         margin: 0;
-        font-weight: 600;
-        font-size: 1.8rem; /* base font size for title */
+        font-weight: 700;
+        font-size: 2rem; /* base font size for title */
         
         @mixin atSmall {
             font-size: 2.2rem;            
         }
         @mixin atMedium {            
-            font-size: 2.6rem;            
+            font-size: 2.8rem;            
         }
         @mixin atLarge {
-            font-size: 3.2rem;
+            font-size: 3.4rem;
             text-shadow: 2px 2px 0 rgba(0,0,0, .1);        
         }
     }
 
     &__subtitle {
-        font-family: 'Noto Sans JP', sans-serif;        
-        font-size: 1rem;  /* base font size for subtitle */  
+        font-size: 1rem;
         font-weight: 300;
+        font-style: italic;
+        margin: 0.3rem 0 3rem 0.3rem;
 
         @mixin atSmall {
             font-size: 1rem;
@@ -44,27 +42,11 @@
         @mixin atMedium {            
             font-size: 1.4rem;
             font-weight: 200;
-            margin: 1rem 0 3rem;
+            font-style: italic;            
         }
-        @mixin atLarge {
-            font-family: 'Nerko One', cursive;        
-            font-size: 1.7rem;
-            font-weight: 200;
-            margin: 1rem 0 3rem;
+        @mixin atLarge {                 
+            font-size: 1.6rem;
+            font-weight: 200;          
         }
     }
 }
-
-
-
-
-
-
-
-
-
-/* text-shadow: 2px 2px 0 rgba(0,0,0, .1); */
-
-
-
-

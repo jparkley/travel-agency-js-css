@@ -9,8 +9,7 @@
         @mixin atMedium {
             margin-bottom: 3rem;
         }    
-    }   
-
+    }
 
     &--centered {
         text-align: center;
