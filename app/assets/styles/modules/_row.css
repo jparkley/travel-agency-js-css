@@ -1,6 +1,9 @@
 .row {
     @mixin clearfix;
 
+    &--t-padding {
+        padding-top: 80px;
+    }
     &--rim {
         margin-right: -40px;
     }    
@@ -8,10 +11,10 @@
         padding-right: 40px;
     }
     &--rim-large {
-        margin-right: -80px;
+        margin-right: -100px;
     }
     &--rim-large > div {
-        padding-right: 40px;
+        padding-right: 100px;
     }
     &__b-margin {
         margin-bottom: 2rem;
@@ -31,9 +34,23 @@
             float: left;
             width: 62%; 
         }
+        &__col-medium-4 {
+            float: left;
+            width: 33.33%;
+        }
     }   
     
     &--shadow {
         box-shadow: 5px 5px 10px gray;
     }
+    &--equal-height {
+        &mixin atMedium {      
+            display: flex;
+            & > div {
+                float: none;
+                display: flex;
+            }
+        }
+    }
+
 }

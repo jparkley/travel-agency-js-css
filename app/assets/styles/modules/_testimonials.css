@@ -1,0 +1,33 @@
+.testimonials {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 0 2rem 1px 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 10px 100px 10px;
+
+    @mixin atMedium {
+        margin-bottom: 0;
+    }
+
+    &__avatar {
+        border-radius: 80px;
+        overflow: hidden;
+        width: 160px;
+        height: 160px;
+        margin: 0 auto -80px auto;
+        position: relative;
+        top: -80px;
+        border: 5px solid rgba(255, 255, 255, .8);
+    }
+    &__title {        
+        color: $darkBlue;        
+        text-align: center;    
+        margin: 0;
+    }
+    &__subtitle {
+        color: $coral;        
+        font-size: 0.9rem;
+        margin: 0 auto 16px auto;
+        text-align: center;
+    }
+
+}

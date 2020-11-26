@@ -10,4 +10,32 @@
         background-color: $darkBlue;
         color: #fff;
     }
+    &--testimonials {
+        
+        background: url('assets/images/testimonials-bg-small.png') top center no-repeat;       
+        background-size: cover;
+        padding-bottom: 2rem;
+        
+        @mixin atMedium {        
+            background: url('assets/images/testimonials-bg.png') top center no-repeat;               
+            padding-bottom: 3rem;
+        }
+    }
+
+    &__title {
+        font-family: 'Merriweather', serif;
+        font-size: 1.15rem;
+        text-align: center;
+        margin: 1.8rem auto 2rem;
+    
+        strong {
+            color: $coral;        
+        }
+    
+        @mixin atMedium {
+            font-size: 2rem;
+            font-weight: 500;   
+        }    
+    }
+
 }
