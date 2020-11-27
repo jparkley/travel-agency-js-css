@@ -8,6 +8,7 @@
     &__text-area {
         color: $darkBlue;          
         position: absolute;
+        padding-top: 60px;
         top: 20%;
         left: 5%;    
     }

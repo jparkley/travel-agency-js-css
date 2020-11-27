@@ -1,0 +1,44 @@
+.part-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    padding: 10px 0;
+    position: absolute;  
+    width: 100%; 
+    z-index: 2;
+    /* background: rgba(21,67,96, .3); */
+    @mixin atMedium {
+        background-color: rgba($dodgerBlue, .3); /* thanks to postcss-hexrgba */
+    }    
+
+    &__logo {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 10px;
+        
+    }
+    &__image {
+        width: 90px;        
+    }
+    &__btn-holder {
+        float: right;
+    }
+    &__menu {
+        display: none;
+        @mixin atMedium {
+            display: block;
+        }
+    }
+    &__menu-icon {
+        width: 35px;
+        height: 35px;
+        background-color: $lightBlue;
+        color: $darkBlue;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        @mixin atMedium {
+            display: none;
+        }
+    }
+}
