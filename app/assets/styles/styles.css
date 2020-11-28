@@ -12,8 +12,9 @@
 @import 'modules/_row';
 @import 'modules/_gen-text-container'; /* Generaic container for text */
 @import 'modules/_package-item';
-@import 'modules/_testimonials.css';
+@import 'modules/_testimonial-item.css';
 @import 'modules/_part-footer';
+@import 'modules/_reveal-item.css';
 
 
 
