@@ -2,6 +2,8 @@
 @import 'base/_variables'; /* Import _variables.css first with those being used in _global.css */
 @import 'base/_global';
 @import 'base/_mixins';
+@import 'modules/_part-header';
+@import 'modules/_nav-main';
 @import 'modules/_main-bg';
 @import 'modules/_btn';
 @import 'modules/_part-section';

@@ -7,7 +7,7 @@
     
     &--lightBlue {
         font-size: 0.8rem;
-        margin-top: 6rem;      
+        margin-top: 1.8rem;      
 
         @mixin atSmall {
             margin-top: 0;

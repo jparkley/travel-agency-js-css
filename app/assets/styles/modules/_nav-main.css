@@ -1,0 +1,28 @@
+.nav-main {
+
+    &--align-right {
+        @mixin atMedium {
+            float: right;
+        }        
+    }
+
+    ul {
+        margin: 0;
+        padding: 12px;
+        @mixin clearfix;
+    }
+    li {
+        list-style: none;        
+        padding-right: 20px;
+        padding-bottom: 10px;
+        @mixin atMedium {
+            float: left;
+            padding-bottom: 0px;
+        }
+    }
+    a {
+        color: #424949;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

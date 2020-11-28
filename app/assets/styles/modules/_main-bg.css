@@ -8,8 +8,13 @@
     &__text-area {
         color: $darkBlue;          
         position: absolute;
+        padding-top: 60px;
         top: 20%;
         left: 5%;    
+        font-family: 'Roboto', sans-serif;
+        @mixin atSmall {
+            font-family: 'Merriweather', serif;
+        }
     }
     &__title {    
         font-family: 'Gentium Basic', serif;
