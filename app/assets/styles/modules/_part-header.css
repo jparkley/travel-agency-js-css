@@ -13,7 +13,8 @@
     }
 
     @mixin atMedium {
-        background-color: rgba($dodgerBlue, .3); /* thanks to postcss-hexrgba */
+        position: fixed;
+        background-color: rgba($lightBlue, .7); /* thanks to postcss-hexrgba */
     }    
 
     &__logo {

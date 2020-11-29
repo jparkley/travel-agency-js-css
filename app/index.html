@@ -22,9 +22,9 @@
           <div class="part-header__btn-holder"><a href="#" class="btn">Contact Us</a></div>        
           <nav class="nav-main nav-main--align-right">
             <ul>
-              <li><a href="#destination">Destination</a></li>
-              <li><a href="#packages">Packages</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#destination" id="destination-link">Destination</a></li>
+              <li><a href="#packages" id="packages-link">Packages</a></li>
+              <li><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
             </ul>
           </nav>
       </div>
@@ -45,7 +45,7 @@
     </div>
   </div><!-- End of main-bg -->
 
-  <div id="destination" class="part-section">
+  <div id="destination" class="part-section" data-matching-link="#destination-link">
     <div class="wrapper">
       <h2 class="heading heading--b-margin-small">Where to Go for Your <span class="heading__bold">Next Trip?</span></h2>
       <h3 class="heading heading--coral heading--narrow heading--small heading--b-margin-large">
@@ -78,7 +78,7 @@
     </div><!-- End of wrapper -->
   </div><!-- End of part-section -->
 
-  <div id="packages" class="part-section part-section--bluebg">
+  <div id="packages" class="part-section part-section--bluebg" data-matching-link="#packages-link">
     <div class="wrapper">
       <div class="part-section__title">              
         <h2><i class="fas fa-plane part-section__icon"></i>  <strong>Top</strong> Vacation Packages</h2>
@@ -119,7 +119,7 @@
     </div><!-- End of wrapper for packages -->
   </div><!-- End of part-section for packages -->
   
-  <div id="testimonials" class="part-section part-section--testimonials gen-text-container">
+  <div id="testimonials" class="part-section part-section--testimonials gen-text-container" data-matching-link="testimonials-link"> 
     <div class="wrapper">
       <div class="part-section__title">
         <h2><i class="fas fa-comments part-section__icon"></i> Testimonials</h2>
