@@ -24,5 +24,11 @@
         color: #424949;
         font-weight: 600;
         text-decoration: none;
+
+        @mixin atMedium {
+            &.current-link {
+                color: orange;
+            }
+        }
     }
 }
