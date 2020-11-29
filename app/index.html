@@ -13,13 +13,13 @@
   <header class="part-header">
     <div class="wrapper">
       <div class="part-header__logo">
-        <img class="part-header__image" src="assets/images/logo.png">
+        <a href="/"><img class="part-header__image" src="assets/images/logo.png"></a>
       </div>
       <div class="part-header__menu-icon">        
         <div class="part-header__menu-icon__middle"></div>        
       </div>
       <div class="part-header__menu-content">
-          <div class="part-header__btn-holder"><a href="#" class="btn">Contact Us</a></div>        
+          <div class="part-header__btn-holder"><a href="#contactus" class="btn">Contact Us</a></div>        
           <nav class="nav-main nav-main--align-right">
             <ul>
               <li><a href="#destination" id="destination-link">Destination</a></li>
@@ -41,7 +41,7 @@
     <div class="main-bg__text-area">
       <h1 class="main-bg__title">Travel Lovers</h1>
       <h2 class="main-bg__subtitle">Here is your dream trip</h2>
-      <p><a href="#" class="btn btn--lightBlue">Search for Vacation Packages</a></p>
+      <p><a href="#packages" class="btn btn--lightBlue">Search for Vacation Packages</a></p>
     </div>
   </div><!-- End of main-bg -->
 
@@ -60,9 +60,9 @@
       <div class="row row--rim">
         <div class="row__col-medium-5 row__b-margin">
           <picture>
-            <source srcset="assets/images/ocean--large.jpg" media="(min-width: 990px)">
-            <source srcset="assets/images/ocean--medium.jpg" media="(min-width: 720px)">
-            <img src="assets/images/ocean--small.jpg" class="row--shadow" alt="ocean" />
+            <source data-srcset="assets/images/ocean--large.jpg" media="(min-width: 990px)">
+            <source data-srcset="assets/images/ocean--medium.jpg" media="(min-width: 720px)">
+            <img src="assets/images/ocean--small.jpg" class="row--shadow lazyload" alt="ocean" />
           </picture>
         </div>
         <div class="row__col-medium-7">
@@ -128,7 +128,7 @@
         <div class="row row__col-medium-4">
           <div class="testimonial-item">
             <div class="testimonial-item__avatar">
-                <img src="assets/images/testimonials-avatar-01.jpg" alt="testimonials 1 avatar">
+                <img class="lazyload" src="assets/images/testimonials-avatar-01.jpg" alt="testimonials 1 avatar">
             </div>
             <h3 class="testimonial-item__title">Jin Lake</h3>
             <h4 class="testimonial-item__subtitle">Loved</h4>
@@ -139,7 +139,7 @@
         <div class="row row__col-medium-4 gen-text-container">
           <div class="testimonial-item">
             <div class="testimonial-item__avatar">
-              <img src="assets/images/testimonials-avatar-02.jpg" alt="testimonials 2 avatar">
+              <img class="lazyload" src="assets/images/testimonials-avatar-02.jpg" alt="testimonials 2 avatar">
             </div>
             <h3 class="testimonial-item__title">London Jackson</h3>
             <h4 class="testimonial-item__subtitle">Loved</h3>
@@ -150,7 +150,7 @@
         <div class="row row__col-medium-4">
           <div class="testimonial-item">
             <div class="testimonial-item__avatar">
-              <img src="assets/images/testimonials-avatar-03.jpg" alt="testimonials 3 avatar">
+              <img class="lazyload" src="assets/images/testimonials-avatar-03.jpg" alt="testimonials 3 avatar">
             </div>
               <h3 class="testimonial-item__title">John Brown</h3>
               <h4 class="testimonial-item__subtitle">Love</h4>
@@ -163,12 +163,20 @@
 
   <footer class="part-footer">
     <div class="wrapper">
+      <div id="contactus" class="contact">
+
+        <h2 class="contact__title"><i class="fas fa-envelope"></i> Get in <strong>Touch</strong></h2>
+        <div class="wrapper wrapper--narrow">
+          <p class="contact__description">We will have an online order system in place soon. Until then, connect with us on any of the platforms below!</p>  
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="social-icons__icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icons__icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icons__icon"><i class="fab fa-youtube-square"></i></a>
+        </div>  
+      </div>
       <div class="part-footer__text"><p>Copyright &copy; Dobooro.com. All rights reserved.</div>
-        <a href="#" class="btn btn--lightBlueWithBg">Contact Us</a>
-      </p>
     </div>
-  </footer>
-  
+  </footer>  
   <script src="bundled.js"></script>
 
 </body>
