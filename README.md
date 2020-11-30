@@ -1,21 +1,14 @@
 
 
-# Travel agency site
-
-Search and display videos from Youtube.com via Axios API call
-
-![version](https://img.shields.io/badge/version-0.0.1-blue)
-![build](https://img.shields.io/badge/build-passing-success)
-![release-date](https://img.shields.io/badge/last_updated-november_2020-yellowgreen)
-![license](https://img.shields.io/badge/license-MIT-green)
+# Travel Agency Site
 
 
 ## Key Features
 
 * Optimized CSS architecture (using PostCSS)
-* webpack essentials: dev & build mode, mini-css-extract-plugin, html-webpack-plugin and so on
+* Webpack essentials: dev & build mode, mini-css-extract-plugin, html-webpack-plugin and more
 * Organized Javascript modules
-* A cloud function (AWS Lambda) frm Netlify
+* Cloud function call to AWS Lambda from Netlify 
 
 
 <table>
