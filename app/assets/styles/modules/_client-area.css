@@ -1,0 +1,14 @@
+.client-area {
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 100px;
+
+    &__form {
+        display: flex;
+    }
+    &__input {
+        flex: 1; /* To take all of the available extra space */
+    }
+    &__error {
+        color: red;
+    }
+}

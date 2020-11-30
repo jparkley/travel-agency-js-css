@@ -31,6 +31,11 @@
         strong {
             color: $coral;        
         }
+
+        &--secret {
+            font-family: 'Roboto', sans-serif;
+            font-size: 5rem;            
+        }
     
         @mixin atMedium {
             font-size: 1.8rem;
