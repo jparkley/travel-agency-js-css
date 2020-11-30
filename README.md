@@ -1,5 +1,4 @@
-# travel-agency-js-css
-Travel agency site featuring optimized CSS architecture, webpack essentials, organized Javascript modules, and a simple cloud function using AWS Lambda and Netlify.  Based on Brad Schiff's course of the Modern Workflow.
+
 
 # Travel agency site
 
