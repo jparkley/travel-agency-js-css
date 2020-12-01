@@ -31,6 +31,7 @@
 
 ## TODO
 > Modal/Lightbox Overlay
+> Lazy loading
 
 :musical_note:
 
